@@ -1,0 +1,23 @@
+$break-small: 600px;
+
+.shipping_div, .shopping_div{
+	width: 50%;
+	float: left;
+
+	.shipping_heading{
+		margin-bottom: 15px;
+	}
+}
+
+
+@media screen and (max-width: $break-small) {
+	
+	.shipping_div, .shopping_div{
+		width: 100%;
+		float: none;
+		.shipping_heading {
+			margin-top: 10px;
+		}
+	}
+	
+}

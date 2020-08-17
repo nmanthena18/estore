@@ -1,0 +1,53 @@
+@import "../../main.scss";
+
+.shipping_heading{
+	margin-bottom: 15px;
+}
+
+.max_shipping_table {
+	max-height: 260px;
+	overflow: auto;
+	margin-bottom: 15px;
+	background: #fff; padding: 10px; border-radius: 5px; 
+}
+
+.cart_div{
+	background: #fff; padding: 10px; border-radius: 5px; 
+}
+
+.shipping_table{
+	width: 100%;
+}
+.shipping_img_td{
+	width: 10%;
+}
+.ship_img{
+	width: 40px;
+}
+.shipping_table tr td{
+	border-top: 1px solid #ddd;
+	padding: 5px 5px 0px;
+	vertical-align: middle;
+}
+
+.shipping_table h5{
+	font-size: 20px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.product_btns {
+    @include product_btns;
+  }
+  
+  .btn2 {
+    background: #1ab39c;
+  }
+
+@media screen and (max-width: 600px) {
+	.shipping_heading {
+		margin-top: 10px;
+	}
+}

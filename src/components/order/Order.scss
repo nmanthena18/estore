@@ -1,0 +1,96 @@
+
+
+.order_box{
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+
+	.status_table{
+		width: 100%;
+		background:#ddd;
+		
+		td{
+			padding: 5px 15px;
+		}
+
+		.table_span{
+			margin-left: 5px;
+		}
+
+		.text-right{
+			text-align: right;
+		}
+	}
+}
+
+
+.status_inside_table{
+	background: #fff;
+	width: 100%;
+
+	.status_img{
+		width: 10%;
+		text-align: center;
+
+		.list_img{
+			width: 100px;
+		}
+	}
+
+	td{
+		padding: 8px;
+	}
+
+	.product_heading {
+		font-size: 26px;
+		margin-bottom: 10px;
+	  }
+	  .product_price {
+		font-size: 25px;
+		font-weight: 300;
+		margin-bottom: 10px;
+	  }
+	  .p_desc {
+		font-size: 16px;
+		margin-bottom: 5px;
+  
+		.spn_desc {
+		  font-weight: 700;
+		  margin-left: 5px;
+		}
+	  }
+
+	  .tab{
+		margin-bottom: 10px;
+		overflow: hidden;
+	}
+	
+	.tab button {
+	  background-color: inherit;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  padding: 9px 16px;
+	  transition: 0.3s;
+	  font-size: 16px;
+	}
+	
+	.tab button:hover {
+	  background-color: #ddd;
+	}
+	
+	.tab button.active {
+	  background-color: #ccc;
+	}
+	.spandesc1{
+			font-weight: 400;
+		margin-left: 5px;
+	}
+	@media only screen and (max-width: 600px){
+		.tab button {
+			 padding: 9px 14px;
+	  font-size: 14px;
+		}
+	}  
+}
+

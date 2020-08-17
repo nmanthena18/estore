@@ -1,0 +1,68 @@
+@import "../../main.scss";
+$break-small: 600px;
+
+.shipping_heading {
+  margin-bottom: 15px;
+}
+
+.form-box {
+  background: #fff;
+  padding: 10px;
+  width: 92%;
+  border-radius: 5px;
+
+  .form-group {
+    margin-bottom: 10px;
+  
+    .custom-label {
+      font-size: 14px;
+      margin-bottom: 2px;
+      font-weight: 600;
+      display: block;
+    }
+  
+    .form-control {
+      display: block;
+      width: 96%;
+      height: 24px;
+      padding: 3px 8px;
+      font-size: 15px;
+      font-weight: 400;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: 0.25rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .form-text-area {
+      height: 75px;
+    }
+  }
+
+  .product_btns {
+    @include product_btns;
+  }
+
+  .book_btn:active, .product_btns:active {
+    box-shadow: 0 2px transparent;
+      transform: translateY(2px);
+  }
+  
+  .btn2 {
+    background: #1ab39c;
+  }
+}
+
+
+
+@media screen and (max-width: $break-small) {
+  .shipping_heading {
+    margin-top: 10px;
+  }
+
+  .form-control {
+    width: 96%;
+  }
+}

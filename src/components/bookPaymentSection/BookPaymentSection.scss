@@ -1,0 +1,48 @@
+@import "../../main.scss";
+
+.shipping_heading {
+  margin-bottom: 15px;
+}
+
+.cart_table {
+  width: 100%;
+  margin-bottom: 15px;
+
+  td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .disabled {
+    cursor: no-drop;
+    opacity: 0.4;
+  }
+}
+
+.product_btns {
+  @include product_btns;
+}
+
+.product_btns:disabled,
+.product_btns[disabled] {
+  cursor: no-drop;
+  opacity: 0.4;
+}
+
+.btn2 {
+  background: #1ab39c;
+}
+// .cart_table td{
+// 	padding: 8px;
+// 	border-top: 1px solid #ddd;
+// }
+
+@media screen and (max-width: 600px) {
+  .shipping_heading {
+    margin-top: 10px;
+  }
+}
